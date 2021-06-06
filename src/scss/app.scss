@@ -1,1 +1,14 @@
 @import './CodimCSS/index.scss';
+
+body {
+  background: radial-gradient(circle at 50% 10%, $color-4 0%, $color-5 44%);
+}
+
+// -----------------------------------
+//           MAIN CONTENT
+// -----------------------------------
+
+.o-mainContent {
+  background: #fff;
+  padding: 2em;
+}
