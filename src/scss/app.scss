@@ -1,4 +1,11 @@
 @import './CodimCSS/index.scss';
+@import './fonts';
+
+* {
+  font-family: $fontPrimary;
+  text-transform: uppercase;
+  color: $color-5;
+}
 
 body {
   background: radial-gradient(circle at 50% 10%, $color-4 0%, $color-5 44%);
@@ -10,5 +17,5 @@ body {
 
 .o-mainContent {
   background: #fff;
-  padding: 2em;
+  padding: 6em;
 }
